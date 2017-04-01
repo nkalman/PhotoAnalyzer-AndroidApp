@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_selected_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+
+    tools:context="myfactory.nomi.com.photoanalyzer.SelectedImageActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"
+        android:id="@+id/imageView" />
+
+    <Button style="@style/AppTheme.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/analyze"
+        android:layout_gravity="bottom|end"
+        android:id="@+id/button_analyze"
+        android:layout_alignBottom="@+id/imageView"
+        android:enabled="true"
+        android:onClick="analyzeImage"/>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PhotoAnalyzer</string>
+    <string name="action_settings">Beállitások</string>
+    <string name="share_image">Megosztás</string>
+    <string name="capture_image">Fénykép készitése</string>
+    <string name="choose_image">Kép választása galériából</string>
+    <string name="analyzed_images">Elemzett képek megtekintése</string>
+    <string name="analyze">Elemzés</string>
+    <string name="analyze_progress_bar">Kép elemzése</string>
+</resources>

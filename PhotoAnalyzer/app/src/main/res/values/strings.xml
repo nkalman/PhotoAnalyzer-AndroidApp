@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PhotoAnalyzer</string>
+    <string name="action_settings">Settings</string>
+    <string name="share_image">Share</string>
+    <string name="capture_image">Take a photo</string>
+    <string name="choose_image">Choose from gallery</string>
+    <string name="analyzed_images">View analyzed images</string>
+    <string name="analyze">ANALYZE</string>
+    <string name="analyze_progress_bar">Analyzing the image</string>
+</resources>
